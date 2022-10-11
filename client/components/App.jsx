@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <svg width={width} height={height}>
+      <svg width={width - 100} height={height - 100}>
         <Circle circle={circle} />
       </svg>
     </>
