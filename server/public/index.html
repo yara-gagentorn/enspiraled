@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div><p>Click on the cirle</p></div>
-    <div id="app"></div>
-
+    <div style="position:relative;">
+      <div style="position:absolute; top: 5px;left: 5px;  z-index:2;"><p class="instructions">Click on the circle</p></div>
+      <div  id="app" style="position:absolute; top: 0px;left: 0px;  z-index:1;"></div>
+   </div>
     <script src="bundle.js"></script>
   </body>
 </html>

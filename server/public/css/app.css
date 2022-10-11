@@ -10,3 +10,7 @@ body {
 circle {
   opacity: 0.3;
 }
+
+.instructions {
+  margin-top: 20px;
+}

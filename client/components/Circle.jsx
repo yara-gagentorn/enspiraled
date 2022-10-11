@@ -103,6 +103,7 @@ function Circle(props) {
     const newCircles = createFourCirclesArray(clickedCircle)
     // add new circles to the existing array and rerender
     setArrayOfAllCircles(() => [...arrayOfAllCircles, ...newCircles])
+    
   }
 
   return <>{arrayOfAllCircles.map((el) => createCirce(el))}</>
